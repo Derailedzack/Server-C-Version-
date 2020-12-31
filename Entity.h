@@ -32,7 +32,7 @@ typedef struct {
     int Entity_ID;
     char* Entity_CustomData;
 }EntityData;
-void SendEntity (EntityData* entity);
+void SendEntity(EntityData* entity);
 void SendCullsionData();
 void SendJump(EntityData* entityData);
 #endif //SERVER_C_VERSION__ENTITY_H
