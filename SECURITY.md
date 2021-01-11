@@ -16,6 +16,5 @@ Use this section to tell people how to report a vulnerability.
 Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
-
 ## Note
 The reason 0.0.0 is the only supported version is because there aren't any other versions
