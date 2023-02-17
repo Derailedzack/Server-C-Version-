@@ -15,6 +15,7 @@ void CreateServer(const char* server_address){
 
 }
 void InitNetworking(){
+    //TODO: Fix/Clarify error messages
     if(SDLNet_Init() == -1){
         printf("The network in the server failed to init because of an error!\nThe Error was %s",SDLNet_GetError());
         exit(-1);
